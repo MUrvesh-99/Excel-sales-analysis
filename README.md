@@ -1,6 +1,6 @@
 # Excel Analytics Project – Results, Dataset & Interactive Charts
 
-This project delivers a complete **Excel-based analysis** that combines raw data, a curated results summary, and interactive charts.This workbook contains a monthly time-series (Series 20) with cleaning, descriptive analysis, forecasting, and a regression summary.
+This project delivers a complete **Excel-based analysis** that combines raw data, a curated results summary, and interactive charts. This workbook contains a monthly time-series (Series 20) with cleaning, descriptive analysis, forecasting, and a regression summary.
 
 ## 🎯 Objectives
 - Provide a **Excel workbook** that contains the **dataset**, **results/KPIs**, and **visual analysis** (graphs & charts).
@@ -77,7 +77,20 @@ This project delivers a complete **Excel-based analysis** that combines raw data
 
 > **Why sMAPE?** series has very small (near-zero) values at times. This makes **MAPE** unreliable (it can explode). **sMAPE** is symmetric and robust around zeros—use it (and **MAD/MSE**) to compare models.
 
+<h2>📈 Visual Preview (Excel Charts)</h2>
 
+<p align="center">
+  <img src="https://raw.githubusercontent.com/MUrvesh-99/Excel-sales-analysis/main/Untitled%201.jpg"
+       alt="Demand vs Exponential Smoothing" width="750">
+</p>
+<p align="center">
+  <img src="https://raw.githubusercontent.com/MUrvesh-99/Excel-sales-analysis/main/Untitled%202.jpg"
+       alt="Comparison: Forecast vs Exponential Smoothing vs Demand" width="750">
+</p>
+<p align="center">
+  <img src="https://raw.githubusercontent.com/MUrvesh-99/Excel-sales-analysis/main/Untitled.jpg"
+       alt="Demand vs Forecast" width="750">
+</p>
 
 ### Key Findings
 1. **Signal:** The series shows **small negative trend** and **noticeable month-to-month volatility**; seasonality exists but is **not strongly explanatory** on its own.
